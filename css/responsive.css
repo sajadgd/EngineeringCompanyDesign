@@ -1,0 +1,431 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .section-title {
+        padding: 10px 0 0 0;
+    }
+
+    #services .services {
+        padding: 20px 0 0 0;
+    }
+
+    #project .project ul {
+        margin: 20px 0 0 0;
+    }
+
+    #article .article-overlay {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #article .article-overlay .container {
+        width: 100%;
+    }
+
+    #partner {
+        display: flex;
+    }
+
+    #project .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #project .project .project-item {
+        width: auto;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    #base-story .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #base-story .base-video {
+        width: 70%;
+    }
+
+    #base-story .base-story {
+        width: 70%;
+        margin-top: 50px;
+    }
+
+    #about {
+        padding: 25px 0 50px 0;
+    }
+
+    #about .section-title button {
+        margin-top: 20px;
+    }
+
+    #about .about-team .about-team-item {
+        height: 300px;
+    }
+
+    #about .about-team .about-team-item img {
+        height: 300px;
+    }
+
+    #beauty-text .beauty-opacity .beauty-text h1 {
+        font-size: 28px;
+    }
+
+    #article .post-article {
+        padding: 25px 0 50px 0;
+    }
+
+    #article .post .post-desc h3 a {
+        font-size: 17px;
+    }
+
+    #article .post .post-desc p {
+        margin-top: 0px;
+        font-size: 13px;
+    }
+
+    #footer {
+        padding: 50px 0 0 0;
+    }
+
+    #footer .footer-content .footer-hot ul li a .hot-title h4 {
+        font-size: 15px;
+    }
+
+    #footer .footer-content .footer-hot ul li a .hot-title p {
+        font-size: 8.5px;
+    }
+
+    #footer .footer-content .footer-portfolio ul li a .portfolio-title h4 {
+        font-size: 15px;
+    }
+
+    #footer .footer-content .footer-portfolio ul li a .portfolio-title p {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header-info {
+        display: none;
+    }
+
+    #slider .slider-desc h1 {
+        font-size: 40px;
+    }
+
+    #slider .slider-desc .typed span {
+        font-size: 30px;
+    }
+
+    header nav ul {
+        width: 70%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        left: -100%;
+        top: 0%;
+        background-color: black;
+        z-index: 1000;
+        transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+    }
+
+    header nav ul.active {
+        left: 0%;
+    }
+
+    header nav ul li {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 5%;
+        margin: 20px 0;
+        border-bottom: 0.5px solid rgb(190, 86, 0);
+        padding-bottom: 20px;
+    }
+
+    .toggle-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #base-story .base-story {
+        width: 85%;
+    }
+
+    #base-story .base-story .story-title p {
+        line-height: 25px;
+    }
+
+    #base-story .base-video::before {
+        height: 10px;
+        right: -20px;
+    }
+
+    #base-story .base-video::after {
+        width: 10px;
+    }
+
+    #about .row {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about .about-team {
+        display: none;
+    }
+
+    #about .section-title {
+        width: 70%;
+    }
+
+    #beauty-text .beauty-opacity .beauty-text h1 {
+        font-size: 22px;
+    }
+
+    #article {
+        height: 1150px;
+    }
+
+    #article .post-article {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #article .post {
+        width: 51.33%;
+        margin-top: 10px;
+    }
+
+    #partner ul {
+        flex-wrap: wrap;
+    }
+
+    #partner ul li {
+        width: 48%;
+    }
+
+    #footer .footer-about {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer .footer-about .footer-about-title {
+        width: 70%;
+        text-align: center;
+    }
+
+    #footer .footer-about .footer-about-title h3 {
+        margin-bottom: 20px;
+    }
+
+    #footer .footer-about .footer-about-contact {
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    #footer .footer-about .footer-about-contact .socials {
+        margin-top: 20px;
+    }
+
+    #footer .footer-content {
+        flex-wrap: wrap;
+    }
+
+    #footer .footer-content div {
+        width: 70%;
+    }
+
+    #footer .footer-content .footer-hot ul li a .hot-title h4 {
+        font-size: 17px;
+    }
+
+    #footer .footer-content .footer-hot ul li a .hot-title p {
+        font-size: 13px;
+    }
+
+    #footer .footer-content .footer-portfolio ul li a .portfolio-title h4 {
+        font-size: 17px;
+    }
+
+    #footer .footer-content .footer-portfolio ul li a .portfolio-title p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #base-story .base-video {
+        width: 100%;
+    }
+
+    #base-story .base-story {
+        width: 100%;
+    }
+
+    #base-story .base-story .base-story-items {
+        flex-wrap: wrap;
+    }
+
+    #base-story .base-story .base-story-items div {
+        width: 48%;
+        margin-top: 10px;
+    }
+
+    #services {
+        height: 123vh;
+    }
+
+    #services .tab-button ul {
+        flex-direction: column;
+        height: 200px;
+    }
+
+    #services .tab-button ul li {
+        width: 100%;
+    }
+
+    #services .tab-content .tab .content .content-text h3 {
+        margin-bottom: 20px;
+    }
+
+    #services .tab-content .tab .content .content-text p {
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    #services .tab-content .tab .content .content-img img {
+        height: 180px;
+    }
+
+    #about .section-title {
+        width: 100%;
+    }
+
+    #about .section-title p {
+        margin-top: 20px;
+    }
+
+    #beauty-text .beauty-opacity .beauty-text h1 {
+        font-size: 16px;
+    }
+
+    #beauty-text .beauty-opacity .beauty-text a {
+        padding: 5px 6px;
+        font-size: 14px;
+    }
+
+    #article {
+        height: 1450px;
+    }
+
+    #article .post {
+        width: 100%;
+    }
+
+    #footer .footer-content div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #header-top .header-top-message {
+        width: 70%;
+    }
+
+    #header-top .header-top-message p {
+        font-size: 12px;
+    }
+
+    #header-top .header-top-socials {
+        width: 30%;
+    }
+
+    #slider {
+        height: 65vh;
+    }
+
+    #slider .slider-desc {
+        height: 65vh;
+    }
+
+    #slider .slider-desc h1 {
+        font-size: 30px;
+    }
+
+    #slider .slider-desc .typed span {
+        font-size: 20px;
+    }
+
+    #base-story .base-video::before {
+        width: 345px;
+        right: -10px;
+    }
+
+    #base-story .base-video::after {
+        height: 200px;
+        right: -20px;
+    }
+
+    #base-story .base-story {
+        padding: 0 0;
+    }
+
+    #services .tab-content .tab .content .content-img {
+        display: none;
+    }
+
+    #services .tab-content .tab .content .content-text {
+        width: 100%;
+        padding: 0 0;
+    }
+
+    #beauty-text .beauty-opacity .beauty-text h1 {
+        text-align: center;
+        line-height: 25px;
+    }
+
+    #beauty-text .beauty-opacity .beauty-text a {
+        font-size: 10px;
+    }
+
+    #project .section-title button {
+        width: 200px;
+    }
+
+    #article {
+        height: 1170px;
+    }
+
+    #article .section-title button {
+        width: 200px;
+    }
+
+    #partner ul {
+        line-height: 2;
+    }
+
+    #partner ul li {
+        width: 100%;
+    }
+
+    #footer .footer-about .footer-about-title {
+        width: 100%;
+    }
+
+    #footer .footer-about .footer-about-contact {
+        width: 100%;
+    }
+}
